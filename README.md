@@ -16,14 +16,17 @@ Hyperspace Advantages
 4. Cost Efficiency: By leveraging Hyperspace, users can significantly reduce machine time requirements and associated costs.
 5. Advanced AI Possibilities: Hyperspace separates candidate generation from scoring, combined withe the extremely low latency, this allows use of complex AI techniques that are commonly impractical.
 
-Workflow - initial setup
+Workflow - Initial setup
 =================================
 1. Download and install the client API
 2. Create data config file
 3. Connect to a server
-4. Create collection
-5. Ingest data
-6. Run query
+
+Workflow
+=================================
+5. Create collection
+6. Ingest data
+7. Run query
 
 Example Datasets
 =================================
