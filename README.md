@@ -25,13 +25,6 @@ Workflow - initial setup
 5. Ingest data
 6. Run query
 
-Workflow - Running Queries
-=================================
-1. Create query function (for classic or hybrid search)
-2. Create query object
-3. Submit
-4. Access Results
-
 Example Datasets
 =================================
 This repository includes various datasets and notebooks, aimed to demonstrate  the use of Hyperspace Engine. Currently, the following datasets are included:
