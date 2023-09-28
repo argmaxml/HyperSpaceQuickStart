@@ -16,22 +16,19 @@ Hyperspace Advantages
 4. Cost Efficiency: By leveraging Hyperspace, users can significantly reduce machine time requirements and associated costs.
 5. Advanced AI Possibilities: Hyperspace separates candidate generation from scoring, combined withe the extremely low latency, this allows use of complex AI techniques that are commonly impractical.
 
-Workflow - Initial setup
+Workflow
 =================================
 1. Download and install the client API
 2. Create data config file
 3. Connect to a server
-
-Workflow
-=================================
-5. Create collection
-6. Ingest data
-7. Run query
+4. Create collection
+5. Ingest data
+6. Run query
 
 Example Datasets
 =================================
 This repository includes various datasets and notebooks, aimed to demonstrate  the use of Hyperspace Engine. Currently, the following datasets are included:
-1. arXiv Papers Dataset -  The dataset is taken from [kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv/) and includes a list of academic papers from arXiv, and their metadata, and can be used for vector, classic or hybrid searches.
+1. [arXiv Papers Dataset](https://github.com/hyper-space-io/QuickStart/tree/b0dbff8733d5fff64e6b4cfe26bb05720ef40073/DataSets/BinaryVector) -  The dataset is taken from [kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv/) and includes a list of academic papers from arXiv, and their metadata, and can be used for vector, classic or hybrid searches.
 2. Crimes In Chicago Dataset - taken from [kaggle](https://www.kaggle.com/datasets/chicago/chicago-crime/), this dataset includes metadata and can be used to demonstrate classic search.
 3. Stores Dataset - Randomly generated vectors of dimension 800, with corresopnding metadata that describes stores. The data can be used for vector, classic or hybrid search.
 4. Movies Dataset - The data is taken from [MovieLens Latest Datasets](https://grouplens.org/datasets/movielens/latest/). The data includes 40954 valid movies. The data is in SQL format (table) and will be converted to NoSQL (documents) format. The data preprocessing is given in the notebook titles "MovieRecommendationDataPrep", available in this repository.
