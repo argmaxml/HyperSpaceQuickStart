@@ -5,8 +5,13 @@ def score_function_recommendation(Q, V):
     
     if match("categories"):
         r_sum = rarity_sum("categories")
-    if V["ios"]:
-        score *= 2
+        r_max = rarity_max("categories")
+        combined = r_sum + r_max
+        if match("ios"):
+            score = r_sum/combined
+        else:
+            score = r_max/combined
+            
         
     if match("bundle_id"):
         score = 0.0
